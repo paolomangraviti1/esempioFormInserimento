@@ -7,7 +7,7 @@
     $dbname = "";       // Nome del Database
     
     /* Inizializzazione delle variabili */
-    /* L'array $_GET viene creato e inizializzato dall'interprete PHP del server
+    /* L'array $_GET viene creato e inizializzato dall'interprete PHP del server */
     $datoOpinione = $_GET["r"];
 
     /* Connessione al server DBMS */
@@ -20,7 +20,7 @@
     else
     {
         /* Predisposizione della query SQL */
-        $sql = "INSERT INTO Risposte (id, risposta) VALUES (null, '".$datoOpinione".')";
+        $sql = "INSERT INTO Risposte (risposta) VALUES ('".$datoOpinione".')";
         
         // Invio della query al server DBMS
         $esitoQuerySQL = $conn->query($sql);
