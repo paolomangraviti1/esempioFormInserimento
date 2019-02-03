@@ -21,7 +21,7 @@
     else
     {
         /* Predisposizione della query SQL */
-        $sql = "SELECT * FROM Risposte;')";
+        $sql = "SELECT * FROM Risposte";
         
         // Invio della query al server DBMS, ottiene il reultSet della query (righe)
         $esitoQuerySQL = $conn->query($sql);
