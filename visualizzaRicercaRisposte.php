@@ -13,7 +13,7 @@
     $dbname = "";       // Nome del Database
     
     /* Inizializzazione delle variabili */
-    /* L'array $_GET viene creato e inizializzato dall'interprete PHP del server
+    /* L'array $_GET viene creato e inizializzato dall'interprete PHP del server */
     $criterio = $_GET["f"];
     
     /* Connessione al server DBMS */
