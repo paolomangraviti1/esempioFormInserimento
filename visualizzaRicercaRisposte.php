@@ -25,7 +25,7 @@
     else
     {
         /* Predisposizione della query SQL */
-        $sql = "SELECT * FROM Risposte WHERE risposta='" . $criterio . "';')";
+        $sql = "SELECT * FROM Risposte WHERE risposta='" . $criterio . "';)";
         
         // Invio della query al server DBMS, ottiene il reultSet della query (righe)
         $esitoQuerySQL = $conn->query($sql);
