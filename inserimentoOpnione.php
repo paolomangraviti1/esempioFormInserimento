@@ -20,7 +20,7 @@
     else
     {
         /* Predisposizione della query SQL */
-        $sql = "INSERT INTO Risposte (risposta) VALUES ('".$datoOpinione".')";
+        $sql = "INSERT INTO Risposte (risposta) VALUES ('".$datoOpinione."')";
         
         // Invio della query al server DBMS
         $esitoQuerySQL = $conn->query($sql);
