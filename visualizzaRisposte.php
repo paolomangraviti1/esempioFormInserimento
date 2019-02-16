@@ -33,7 +33,7 @@
            while ($row = $esitoQuerySQL->fetch_assoc())
            {
                // echo "<li>" . $row["1"]. "</li>";
-               // echo "<li>" . $row["risposta"]. "</li>";
+               echo "<li>" . $row["risposta"]. "</li>";
            }
     }
     $conn->close();
